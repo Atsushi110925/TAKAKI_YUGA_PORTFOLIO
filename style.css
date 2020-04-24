@@ -1,0 +1,467 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0;
+  color: #333;
+  font-size: 1.2rem;
+  font-family: "メイリオ", "Hiragino Kaku Gothic Pro", sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* header */
+header {
+  padding: 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  margin: 40px;
+  padding: 0px;
+}
+.nav_list a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #333;
+  padding: 0 15px;
+  line-height: 35px;
+  letter-spacing: 1px;
+  transition: 0.4s;
+}
+.nav_list a:hover {
+  opacity: 0.5;
+}
+header li + li {
+  border-left: 1px solid #333;
+}
+/* name */
+main {
+  margin-top: 150px;
+}
+main .name {
+  padding: 0 50px 0;
+  text-align: center;
+}
+main .name h1 {
+  font-family: fantasy;
+  font-size: 8rem;
+  letter-spacing: 1px;
+}
+main .name p {
+  font-size: 3.5rem;
+  color: rgb(150, 148, 148);
+}
+/* footer */
+footer {
+  width: 100%;
+  padding: 6px 0;
+  margin-top: 100px;
+  color: #333;
+}
+footer p {
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+footer p a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* PROFILEのページ */
+section {
+  width: 60%;
+  text-align: center;
+  margin: 40px auto 0;
+}
+section h1 {
+  font-size: 3.5rem;
+  margin: 0px;
+  padding: 20px;
+}
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.profile p {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+.profile p span {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+/* PHOTOのページ */
+.photo img {
+  width: 70%;
+  height: auto;
+}
+
+/* VIDEOのページ */
+.video-item {
+  width: 70%;
+  margin: 0 auto 80px;
+}
+.video-item img,
+.video-item video {
+  width: 100%;
+  height: auto;
+}
+.video-item h1 {
+  font-size: 2.1rem;
+  padding: 0;
+  text-align: left;
+}
+.video-item p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: left;
+  color: rgb(218, 98, 98);
+  margin: 0;
+}
+.video-item p span {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: rgb(112, 112, 112);
+}
+.video-item img:hover {
+  opacity: 0.8;
+}
+/* ########### 425px以下 ########### */
+@media (max-width: 425px) {
+  header {
+    margin-top: 15px;
+    padding: 5px;
+  }
+  header ul {
+    margin: 10px;
+  }
+  .nav_list a {
+    font-size: 1.2rem;
+    padding: 0 10px;
+    line-height: 15px;
+  }
+  /* HOMEのページ */
+  main {
+    margin-top: 50px;
+  }
+  main .name {
+    padding: 0 20px 0;
+  }
+  main .name h1 {
+    font-size: 5rem;
+  }
+  main .name p {
+    font-size: 2rem;
+  }
+  /* footer */
+  footer {
+    margin-top: 20px;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+
+  /* ABOUTのページ */
+  section {
+    width: 100%;
+    margin: 20px auto 0;
+  }
+  section h1 {
+    font-size: 2.5rem;
+  }
+  .profile p span {
+    width: 100%;
+  }
+  /* PHOTOのページ */
+  .photo img {
+    width: 90%;
+  }
+  /* VIDEOのページ */
+  .video-item {
+    width: 90%;
+    margin: 0 auto 50px;
+  }
+  .video-item h1 {
+    font-size: 1.8rem;
+  }
+  .video-item p {
+    font-size: 1.6rem;
+  }
+  .video-item p span {
+    font-size: 1.2rem;
+  }
+}
+
+/* ########### 426px以上～768px以下 ########### */
+@media (min-width: 426px) and (max-width: 768px) {
+  header {
+    margin-top: 15px;
+    padding: 5px;
+  }
+  header ul {
+    margin: 10px;
+  }
+  .nav_list a {
+    font-size: 1.6rem;
+    padding: 0 10px;
+    line-height: 20px;
+  }
+  /* HOMEのページ */
+  main {
+    margin-top: 90px;
+  }
+  main .name {
+    padding: 0 20px 0;
+  }
+  main .name h1 {
+    font-size: 6rem;
+  }
+  main .name p {
+    font-size: 2.7rem;
+  }
+  /* footer */
+  footer {
+    margin-top: 20px;
+  }
+  footer p {
+    font-size: 1.3rem;
+  }
+
+  /* ABOUTのページ */
+  section {
+    width: 100%;
+    margin: 20px auto 0;
+  }
+  section h1 {
+    font-size: 2.5rem;
+  }
+  .profile p span {
+    width: 100%;
+  }
+  /* PHOTOのページ */
+  .photo img {
+    width: 80%;
+  }
+  /* VIDEOのページ */
+  .video-item {
+    width: 100%;
+    margin: 0 auto 50px;
+  }
+  .video-item h1 {
+    font-size: 1.8rem;
+  }
+  .video-item p {
+    font-size: 1.6rem;
+  }
+  .video-item p span {
+    font-size: 1.3rem;
+  }
+}
+
+/* ########### 769px以上～1024px以下 ########### */
+@media (min-width: 769px) and (max-width: 1024px) {
+  header {
+    padding: 5px;
+  }
+  header ul {
+    margin: 30px;
+  }
+  .nav_list a {
+    font-size: 2rem;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  /* HOMEのページ */
+  main {
+    margin-top: 150px;
+  }
+  main .name {
+    padding: 0 20px 0;
+  }
+  main .name h1 {
+    font-size: 7rem;
+  }
+  main .name p {
+    font-size: 3rem;
+  }
+  /* footer */
+  footer {
+    margin-top: 20px;
+  }
+  footer p {
+    font-size: 1.5rem;
+  }
+
+  /* PROFILEのページ */
+  section {
+    width: 80%;
+    margin: 20px auto 0;
+  }
+  section h1 {
+    font-size: 2.5rem;
+  }
+  .profile p {
+    font-size: 2rem;
+  }
+  .profile p span {
+    width: 90%;
+  }
+  /* PHOTOのページ */
+  .photo img {
+    width: 80%;
+  }
+  /* VIDEOのページ */
+  .video-item {
+    width: 80%;
+    margin: 0 auto 60px;
+  }
+  .video-item h1 {
+    font-size: 2.5rem;
+  }
+  .video-item p {
+    font-size: 2rem;
+  }
+  .video-item p span {
+    font-size: 1.6rem;
+  }
+}
+
+/* ########### 1025px以上 ########### */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .nav_list a {
+    font-size: 2rem;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  /* HOMEのページ */
+  main {
+    margin-top: 150px;
+  }
+  main .name {
+    padding: 0 20px 0;
+  }
+  main .name h1 {
+    font-size: 8rem;
+  }
+  main .name p {
+    font-size: 3.2rem;
+  }
+  /* footer */
+  footer {
+    margin-top: 100px;
+  }
+  footer p {
+    font-size: 1.5rem;
+  }
+
+  /* PROFILEのページ */
+  section {
+    width: 70%;
+    margin: 20px auto 0;
+  }
+  section h1 {
+    font-size: 2.5rem;
+  }
+  .profile p {
+    font-size: 2rem;
+  }
+  .profile p span {
+    width: 90%;
+  }
+  /* PHOTOのページ */
+  .photo img {
+    width: 70%;
+  }
+  /* VIDEOのページ */
+  .video-item {
+    width: 80%;
+    margin: 0 auto 60px;
+  }
+  .video-item h1 {
+    font-size: 2.5rem;
+  }
+  .video-item p {
+    font-size: 2rem;
+  }
+  .video-item p span {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1441px) {
+  .nav_list a {
+    font-size: 2rem;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  /* HOMEのページ */
+  main {
+    margin-top: 150px;
+  }
+  main .name {
+    padding: 0 20px 0;
+  }
+  main .name h1 {
+    font-size: 9rem;
+  }
+  main .name p {
+    font-size: 3.2rem;
+  }
+  /* footer */
+  footer {
+    margin-top: 100px;
+  }
+  footer p {
+    font-size: 1.5rem;
+  }
+
+  /* PROFILEのページ */
+  section {
+    width: 65%;
+    margin: 20px auto 0;
+  }
+  section h1 {
+    font-size: 2.5rem;
+  }
+  .profile p {
+    font-size: 2rem;
+  }
+  .profile p span {
+    width: 85%;
+  }
+  /* PHOTOのページ */
+  .photo img {
+    width: 65%;
+  }
+  /* VIDEOのページ */
+  .video-item {
+    width: 75%;
+    margin: 0 auto 60px;
+  }
+  .video-item h1 {
+    font-size: 2.5rem;
+  }
+  .video-item p {
+    font-size: 2rem;
+  }
+  .video-item p span {
+    font-size: 1.6rem;
+  }
+}
