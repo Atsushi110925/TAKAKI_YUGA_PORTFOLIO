@@ -54,7 +54,7 @@ main .name {
   text-align: center;
 }
 main .name h1 {
-  font-family: fantasy;
+  font-family: Times New Roman', Times, serif;
   font-size: 8rem;
   letter-spacing: 1px;
 }
