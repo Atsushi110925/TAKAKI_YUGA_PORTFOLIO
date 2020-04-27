@@ -138,8 +138,8 @@ section h1 {
 .video-item img:hover {
   opacity: 0.8;
 }
-/* ########### 425px以下 ########### */
-@media (max-width: 425px) {
+/* ########### 440px以下 ########### */
+@media (max-width: 440px) {
   header {
     margin-top: 15px;
     padding: 5px;
@@ -157,10 +157,10 @@ section h1 {
     margin: 50px auto 0;
   }
   main .name {
-    padding: 0 10px 0;
+    padding: 0;
   }
   main .name h1 {
-    font-size: 3.8rem;
+    font-size: 3.9rem;
     text-align: center;
 }
   }
