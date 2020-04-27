@@ -73,12 +73,6 @@ footer p {
   font-size: 1.2rem;
   letter-spacing: 1px;
 }
-footer p a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
 
 /* PROFILEのページ */
 section {
