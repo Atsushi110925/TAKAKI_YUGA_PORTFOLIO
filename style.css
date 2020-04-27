@@ -161,6 +161,8 @@ section h1 {
   }
   main .name h1 {
     font-size: 3.8rem;
+    text-align: center;
+}
   }
   main .name p {
     font-size: 1.9rem;
