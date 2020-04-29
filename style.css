@@ -31,7 +31,7 @@ header ul {
 }
 .nav_list a {
   text-decoration: none;
-  font-size: 1.7rem;
+  font-size: 2.3rem;
   font-weight: bold;
   color: #fff;
   padding: 0 15px;
@@ -98,7 +98,7 @@ section h1 {
   margin-top: 10px;
 }
 .profile p {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   letter-spacing: 1px;
 }
 .profile p span {
@@ -115,7 +115,7 @@ section h1 {
 
 /* VIDEOのページ */
 .video-item {
-  width: 70%;
+  width: 85%;
   margin: 0 auto 80px;
 }
 .video-item img,
@@ -125,7 +125,7 @@ section h1 {
 }
 .video-item h1 {
   font-size: 2.1rem;
-  padding: 0;
+  padding: 5px 0 0 0;
   text-align: left;
 }
 .video-item p {
@@ -143,8 +143,8 @@ section h1 {
 .video-item img:hover {
   opacity: 0.8;
 }
-/* ########### 425px以下 ########### */
-@media (max-width: 425px) {
+/* ########### 550px以下 ########### */
+@media (max-width: 550px) {
   header {
     margin-top: 15px;
     padding: 5px;
@@ -154,7 +154,7 @@ section h1 {
   }
   .nav_list a {
     font-size: 1.2rem;
-    padding: 0 10px;
+    padding: 0 5px;
     line-height: 15px;
   }
   /* HOMEのページ */
@@ -165,18 +165,17 @@ section h1 {
     padding: 0 20px 0;
   }
   main .name h1 {
-    font-size: 3.2rem;
-    letter-spacing: 0.5px;
+    font-size: 2.8rem;
   }
   main .name p {
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
   /* footer */
   footer {
-    margin-top: 20px;
+    margin-top: 40px;
   }
   footer p {
-    font-size: 1rem;
+    font-size: 0.1rem;
   }
 
   /* ABOUTのページ */
@@ -214,8 +213,8 @@ section h1 {
   }
 }
 
-/* ########### 426px以上～768px以下 ########### */
-@media (min-width: 426px) and (max-width: 768px) {
+/* ########### 551px以上～768px以下 ########### */
+@media (min-width: 551px) and (max-width: 768px) {
   header {
     margin-top: 15px;
     padding: 5px;
@@ -236,17 +235,15 @@ section h1 {
     padding: 0 20px 0;
   }
   main .name h1 {
-    font-size: 5rem;
+    font-size: 6rem;
   }
   main .name p {
     font-size: 2.7rem;
   }
   /* footer */
-  footer {
-    margin-top: 20px;
-  }
+
   footer p {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   /* ABOUTのページ */
@@ -310,14 +307,6 @@ section h1 {
   main .name p {
     font-size: 3rem;
   }
-  /* footer */
-  footer {
-    margin-top: 20px;
-  }
-  footer p {
-    font-size: 1.5rem;
-  }
-
   /* PROFILEのページ */
   section {
     width: 80%;
@@ -329,9 +318,6 @@ section h1 {
   .profile img {
     width: 350px;
     height: 210px;
-  }
-  .profile p {
-    font-size: 2rem;
   }
   .profile p span {
     width: 90%;
