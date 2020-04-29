@@ -358,8 +358,7 @@ section h1 {
 }
 
 /* ########### 1025px以上 ########### */
-/* ########### 1025px以上 ########### */
-@media (min-width: 1025px) and (max-width: 1440px) {
+@media (min-width: 1025px){
   .nav_list a {
     font-size: 2rem;
     padding: 0 10px;
