@@ -55,7 +55,7 @@ main .name {
 }
 main .name h1 {
   font-family: "Times New Roman", Times, serif;
-  font-size: 7rem;
+  font-size: 6.5rem;
   letter-spacing: 1px;
 }
 main .name p {
@@ -165,7 +165,7 @@ section h1 {
     padding: 0 20px 0;
   }
   main .name h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   main .name p {
     font-size: 1.2rem;
@@ -239,7 +239,7 @@ section h1 {
     padding: 0 20px 0;
   }
   main .name h1 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
   }
   main .name p {
     font-size: 2rem;
@@ -308,7 +308,7 @@ section h1 {
     padding: 0 20px 0;
   }
   main .name h1 {
-    font-size: 5.5rem;
+    font-size: 5.2rem;
   }
   main .name p {
     font-size: 2.5rem;
@@ -375,7 +375,7 @@ section h1 {
     padding: 0 20px 0;
   }
   main .name h1 {
-    font-size: 6.5rem;
+    font-size: 6.2rem;
   }
   main .name p {
     font-size: 2.8rem;
