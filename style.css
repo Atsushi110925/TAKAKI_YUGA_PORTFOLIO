@@ -112,6 +112,9 @@ section h1 {
   width: 70%;
   height: auto;
 }
+.photo p{
+  font-size: 1.4rem;
+}
 
 /* VIDEOのページ */
 .video-item {
