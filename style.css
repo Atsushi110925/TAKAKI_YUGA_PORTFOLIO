@@ -93,8 +93,9 @@ section h1 {
   padding: 20px;
 }
 .profile img {
-  width: 400px;
-  height: 270px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
   margin-top: 10px;
 }
 .profile p {
@@ -194,6 +195,10 @@ section h1 {
     width: 230px;
     height: 140px;
   }
+  .profile img {
+  width: 190px;
+  height: 190px;
+}
   .profile p {
   font-size: 1.5rem;
   letter-spacing: 1px;
@@ -261,10 +266,10 @@ section h1 {
   section h1 {
     font-size: 2.5rem;
   }
-  .profile img {
-    width: 280px;
-    height: 170px;
-  }
+.profile img {
+  width: 220px;
+  height: 220px;
+}
   .profile p {
   font-size: 1.5rem;
   letter-spacing: 1px;
@@ -331,10 +336,12 @@ section h1 {
   section h1 {
     font-size: 2.5rem;
   }
-  .profile img {
-    width: 280px;
-    height: 170px;
-  }
+.profile img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
   .profile p span {
     width: 100%;
   }
@@ -393,9 +400,9 @@ section h1 {
     font-size: 2.5rem;
   }
   .profile img {
-    width: 350px;
-    height: 210px;
-  }
+   width: 270px;
+   height: 270px;
+}
   .profile p span {
     width: 90%;
   }
