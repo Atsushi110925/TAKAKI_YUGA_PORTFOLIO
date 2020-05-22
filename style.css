@@ -26,7 +26,7 @@ header {
 header ul {
   display: flex;
   list-style: none;
-  margin: 40px;
+  margin: 50px;
   padding: 0px;
 }
 .nav_list a {
@@ -155,7 +155,7 @@ section h1 {
     padding: 5px;
   }
   header ul {
-    margin: 10px;
+    margin: 20px;
   }
   .nav_list a {
     font-size: 1.2rem;
@@ -233,7 +233,7 @@ section h1 {
     padding: 5px;
   }
   header ul {
-    margin: 10px;
+    margin: 20px;
   }
   .nav_list a {
     font-size: 1.6rem;
@@ -302,7 +302,7 @@ section h1 {
     padding: 5px;
   }
   header ul {
-    margin: 10px;
+    margin: 20px;
   }
   .nav_list a {
     font-size: 1.6rem;
@@ -371,7 +371,7 @@ section h1 {
     padding: 5px;
   }
   header ul {
-    margin: 30px;
+    margin: 40px;
   }
   .nav_list a {
     font-size: 2rem;
