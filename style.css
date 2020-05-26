@@ -54,9 +54,13 @@ main .name {
   text-align: center;
 }
 main .name h1 {
-  font-size: 5.8rem;
-  letter-spacing: 1px;
+  font-size: 6.5rem;
+  letter-spacing: 3px;
 }
+  main .name h1 span{
+  font-size: 4.5rem;
+  line-height: 100px;
+  }
 main .name p {
   font-size: 2.5rem;
   color: #fff;
@@ -116,6 +120,9 @@ section h1 {
   font-size: 1.4rem;
   margin-top: 50px;
 }
+.photo p span{
+ line-height: 50px;
+}
 
 /* VIDEOのページ */
 .video-item {
@@ -157,22 +164,29 @@ section h1 {
     margin: 30px;
   }
   .nav_list a {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: 0 5px;
     line-height: 15px;
   }
   /* HOMEのページ */
   main {
-    margin-top: 50px;
+    margin-top: 60px;
   }
   main .name {
     padding: 0 20px 0;
   }
   main .name h1 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
+  }
+    main .name h1 span{
+  font-size: 1.8rem;
+  line-height: 60px;
+  }
+  main .name h1 span{
+  font-size: 2rem;
   }
   main .name p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   /* footer */
   footer {
@@ -235,22 +249,26 @@ section h1 {
     margin: 30px;
   }
   .nav_list a {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     padding: 0 10px;
     line-height: 20px;
   }
   /* HOMEのページ */
   main {
-    margin-top: 90px;
+    margin-top: 100px;
   }
   main .name {
     padding: 0 20px 0;
   }
   main .name h1 {
-    font-size: 3.6rem;
+    font-size: 4rem;
+  }
+    main .name h1 span{
+  font-size: 3rem;
+  line-height: 90px;
   }
   main .name p {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
   /* footer */
   footer p {
@@ -304,19 +322,23 @@ section h1 {
     margin: 50px;
   }
   .nav_list a {
-    font-size: 1.6rem;
+    font-size: 2rem;
     padding: 0 10px;
     line-height: 20px;
   }
   /* HOMEのページ */
   main {
-    margin-top: 90px;
+    margin-top: 100px;
   }
   main .name {
     padding: 0 20px 0;
   }
   main .name h1 {
-    font-size: 4.3rem;
+    font-size: 4.8rem;
+  }
+    main .name h1 span{
+  font-size: 3.3rem;
+  line-height: 100px;
   }
   main .name p {
     font-size: 2rem;
@@ -370,22 +392,26 @@ section h1 {
     padding: 5px;
   }
   header ul {
-    margin: 50px;
+    margin: 100px;
   }
   .nav_list a {
-    font-size: 2rem;
+    font-size: 2.2rem;
     padding: 0 10px;
     line-height: 30px;
   }
   /* HOMEのページ */
   main {
-    margin-top: 150px;
+    margin-top: 100px;
   }
   main .name {
     padding: 0 20px 0;
   }
   main .name h1 {
-    font-size: 5rem;
+    font-size: 5.7rem;
+  }
+    main .name h1 span{
+  font-size: 4rem;
+  line-height: 150px;
   }
   main .name p {
     font-size: 2.2rem;
