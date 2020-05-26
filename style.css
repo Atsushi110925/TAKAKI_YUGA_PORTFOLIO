@@ -54,8 +54,7 @@ main .name {
   text-align: center;
 }
 main .name h1 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 6.5rem;
+  font-size: 6rem;
   letter-spacing: 1px;
 }
 main .name p {
@@ -113,7 +112,7 @@ section h1 {
   width: 70%;
   height: auto;
 }
-.photo p{
+.photo p {
   font-size: 1.4rem;
   margin-top: 50px;
 }
@@ -155,7 +154,7 @@ section h1 {
     padding: 5px;
   }
   header ul {
-    margin: 20px;
+    margin: 30px;
   }
   .nav_list a {
     font-size: 1.2rem;
@@ -196,13 +195,13 @@ section h1 {
     height: 140px;
   }
   .profile img {
-  width: 190px;
-  height: 190px;
-}
+    width: 190px;
+    height: 190px;
+  }
   .profile p {
-  font-size: 1.5rem;
-  letter-spacing: 1px;
-}
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
   .profile p span {
     width: 100%;
   }
@@ -233,7 +232,7 @@ section h1 {
     padding: 5px;
   }
   header ul {
-    margin: 20px;
+    margin: 30px;
   }
   .nav_list a {
     font-size: 1.6rem;
@@ -248,10 +247,10 @@ section h1 {
     padding: 0 20px 0;
   }
   main .name h1 {
-    font-size: 3.2rem;
+    font-size: 3.6rem;
   }
   main .name p {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   /* footer */
   footer p {
@@ -266,14 +265,14 @@ section h1 {
   section h1 {
     font-size: 2.5rem;
   }
-.profile img {
-  width: 220px;
-  height: 220px;
-}
+  .profile img {
+    width: 220px;
+    height: 220px;
+  }
   .profile p {
-  font-size: 1.5rem;
-  letter-spacing: 1px;
-}
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
   .profile p span {
     width: 100%;
   }
@@ -295,14 +294,14 @@ section h1 {
   .video-item p span {
     font-size: 1.3rem;
   }
-}/* ########### 590px以上～768px以下 ########### */
+} /* ########### 590px以上～768px以下 ########### */
 @media (min-width: 590px) and (max-width: 768px) {
   header {
     margin-top: 15px;
     padding: 5px;
   }
   header ul {
-    margin: 20px;
+    margin: 50px;
   }
   .nav_list a {
     font-size: 1.6rem;
@@ -317,10 +316,10 @@ section h1 {
     padding: 0 20px 0;
   }
   main .name h1 {
-    font-size: 5.2rem;
+    font-size: 4.3rem;
   }
   main .name p {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   /* footer */
 
@@ -336,12 +335,12 @@ section h1 {
   section h1 {
     font-size: 2.5rem;
   }
-.profile img {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  margin-top: 10px;
-}
+  .profile img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
   .profile p span {
     width: 100%;
   }
@@ -371,7 +370,7 @@ section h1 {
     padding: 5px;
   }
   header ul {
-    margin: 40px;
+    margin: 50px;
   }
   .nav_list a {
     font-size: 2rem;
@@ -386,10 +385,10 @@ section h1 {
     padding: 0 20px 0;
   }
   main .name h1 {
-    font-size: 6.2rem;
+    font-size: 5.2rem;
   }
   main .name p {
-    font-size: 2.8rem;
+    font-size: 2.2rem;
   }
   /* PROFILEのページ */
   section {
@@ -400,9 +399,9 @@ section h1 {
     font-size: 2.5rem;
   }
   .profile img {
-   width: 270px;
-   height: 270px;
-}
+    width: 270px;
+    height: 270px;
+  }
   .profile p span {
     width: 90%;
   }
