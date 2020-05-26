@@ -54,7 +54,7 @@ main .name {
   text-align: center;
 }
 main .name h1 {
-  font-size: 6rem;
+  font-size: 5.8rem;
   letter-spacing: 1px;
 }
 main .name p {
@@ -385,7 +385,7 @@ section h1 {
     padding: 0 20px 0;
   }
   main .name h1 {
-    font-size: 5.2rem;
+    font-size: 5rem;
   }
   main .name p {
     font-size: 2.2rem;
