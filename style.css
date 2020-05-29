@@ -176,13 +176,14 @@ section h1 {
   main .name h1 {
     font-size: 2.2rem;
     letter-spacing: 5px;
-    margin-left:5px;
+    margin-left:7px;
     
   }
   main .name h1 span {
     font-size: 1.7rem;
     line-height: 60px;
     letter-spacing: 2px;
+    margin-right:5px;
   }
   main .name p {
     font-size: 1.3rem;
