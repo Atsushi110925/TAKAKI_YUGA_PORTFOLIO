@@ -182,8 +182,7 @@ section h1 {
   main .name h1 span {
     font-size: 1.7rem;
     line-height: 60px;
-    letter-spacing: 2px;
-    margin-right:100px
+    letter-spacing: px;
   }
   main .name p {
     font-size: 1.3rem;
