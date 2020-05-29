@@ -60,6 +60,7 @@ main .name h1 {
 main .name h1 span {
   font-size: 4.5rem;
   line-height: 100px;
+  letter-spacing: 3px;
 }
 main .name p {
   font-size: 2.5rem;
@@ -178,6 +179,7 @@ section h1 {
   main .name h1 span {
     font-size: 1.6rem;
     line-height: 60px;
+    letter-spacing: 3px;
   }
   main .name h1 span {
     font-size: 1.8rem;
@@ -266,6 +268,7 @@ section h1 {
   main .name h1 span {
     font-size: 3rem;
     line-height: 90px;
+    letter-spacing: 3px;
   }
   main .name p {
     font-size: 1.8rem;
@@ -342,6 +345,7 @@ section h1 {
   main .name h1 span {
     font-size: 3.3rem;
     line-height: 100px;
+    letter-spacing: 3px;
   }
   main .name p {
     font-size: 2rem;
@@ -417,6 +421,7 @@ section h1 {
   main .name h1 span {
     font-size: 4rem;
     line-height: 150px;
+    letter-spacing: 3px;
   }
   main .name p {
     font-size: 2.2rem;
